@@ -14,14 +14,13 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    int_features = [x for x in request.form.values()]
-    docs=model.pipe(int_features)
-    lst=[]
-    for doc in docs:
-        
-        for entity in doc.ents:
-            #print((entity.text,entity.label_))
-            lst.append((entity.text,entity.label_))
+    int_features =  request.form.values()
+    docs=model.make_doc(int_features)
+    
+    lst=[]         
+    for entity in doc.ents:
+        #print((entity.text,entity.label_))
+        lst.append((entity.text,entity.label_))
 
     output = lst
 
