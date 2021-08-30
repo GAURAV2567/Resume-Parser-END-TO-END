@@ -11,3 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 joblib>=0.16.0
 click>=7.1.2
+spacy>=3.0
