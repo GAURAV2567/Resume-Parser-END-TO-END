@@ -4,6 +4,6 @@
 
 **Data Source**:LinkedIn Resume Summaries
 
-**Extracting Information**: Experience, Skills, Education. Certification, Awards, Organization, Person
+**Extracting Information**: Experience, Skills, In-progress(Education. Certification, Awards, Organization, Person)
 
 Heroku App LINK:- https://resume-parser-ner-api.herokuapp.com/
