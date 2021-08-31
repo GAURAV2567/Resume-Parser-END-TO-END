@@ -1,5 +1,5 @@
 # Resume-Parser-END-TO-END
-Resume Parser, Custom Named Entity Recognition (NER), Spacy, NLP
+##Resume Parser, Custom Named Entity Recognition (NER), Spacy, NLP
 
 Data Source:
 LinkedIn Resume Summaries
