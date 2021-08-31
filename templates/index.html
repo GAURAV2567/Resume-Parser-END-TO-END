@@ -14,12 +14,13 @@
 <body>
  <div class="login">
 	<h1>Resume Parser</h1>
+	 <h2>Select any text from LinkedIn Summary Section Only<h2>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="Resume Summaries" placeholder="Resume Summaries" required="required" />
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
     </form>
 
    <br>
