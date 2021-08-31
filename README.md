@@ -2,7 +2,7 @@
 
 Tools Used:- Custom Named Entity Recognition (NER), Spacy, NLP.Implemented two Scientific Research Paper
 
-Data Source:
+**Data Source**:
 LinkedIn Resume Summaries
 Extracting Information: Experience, Skills, Education. Certification, Awards, Organization, Person
 
