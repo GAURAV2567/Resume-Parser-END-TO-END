@@ -6,4 +6,6 @@
 
 **Extracting Information**: Experience, Skills, In-progress(Education. Certification, Awards, Organization, Person)
 
+**ML Deploy**: Web API using Flask and Deployed on Heroku
+
 Heroku App LINK:- https://resume-parser-ner-api.herokuapp.com/
